@@ -4,6 +4,7 @@ import Title from "./Components/Header/Title/Title";
 import ContainerInfo from "./Components/Info/container1/ContainerInfo";
 import ContainerInfo2 from "./Components/Info/Container2/ContainerInfo2";
 import Stars from "./Components/stars/Stars";
+import Swiper from "../src/Components/Swiper/Slider/Swiper";
 import Imagenes from "./Components/vacaciones/images/Imagenes";
 import Text from "./Components/vacaciones/Text/Text";
 
@@ -20,13 +21,15 @@ function App() {
       </div>
       <div className="cointainer-vector"></div>
       <div className="contenidoBallena">
-        <Text/>
-        <Imagenes/>
+        <Text />
+        <Imagenes />
       </div>
       <div className="StarsContainer">
-        <Stars/>
+        <Stars />
       </div>
-
+      <div className="swiperConatiner">
+        <Swiper />
+      </div>
     </div>
   );
 }

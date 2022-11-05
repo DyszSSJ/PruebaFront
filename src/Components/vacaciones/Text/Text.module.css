@@ -1,0 +1,15 @@
+.title {
+    position: absolute;
+    width: 512px;
+    height: 381px;
+    left: 114px;
+    top: -32px;
+    /* font-family: "Poppins"; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 123px;
+    line-height: 86%;
+    letter-spacing: -0.06em;
+    color: #ffffff;
+    z-index: 111;
+}

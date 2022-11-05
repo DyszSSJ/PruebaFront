@@ -65,17 +65,22 @@ body {
     height: 376px;
     left: 126px;
     top: 700px;
-    background: radial-gradient( 53% 63% at 49% 66%, rgba(0, 0, 0, 0.8) 0%, rgba(143, 32, 230, 0.296) 0.01%, rgba(255, 91, 199, 0.152) 52.08%, rgba(196, 196, 196, 0) 100% );
+    background: radial-gradient(
+      53% 63% at 49% 66%,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(143, 32, 230, 0.296) 0.01%,
+      rgba(255, 91, 199, 0.152) 52.08%,
+      rgba(196, 196, 196, 0) 100%
+    );
     opacity: 0.7;
   }
-  
 }
 
 .cointainer-vector {
   position: absolute;
   width: 50%;
   height: 500vh;
-  left: 30%;
+  left: 27%;
   top: 85%;
 
   background-repeat: no-repeat;
@@ -106,4 +111,24 @@ body {
     background-image: url(/src/assets/vectorCurvo.png);
     z-index: -1;
   }
+}
+
+.contenidoBallena {
+  display: flex;
+  flex-direction: row;
+  background-color: #0f3057;
+  position: absolute;
+  width: 92%;
+  height: 77%;
+  left: 48px;
+  top: 1900px;
+  border-radius: 0.5rem;
+}
+
+.StarsContainer {
+  position: absolute;
+  width: 1342px;
+  height: 624.25px;
+  left: 48px;
+  top: 3203px;
 }

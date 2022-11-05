@@ -1,5 +1,3 @@
-
-
 .title {
   position: absolute;
   width: 518px;
@@ -87,4 +85,36 @@
     letter-spacing: -0.02em;
     color: #ffffff;
   }
+}
+
+@media screen and (min-width: 2080px) {
+  .title {
+    position: absolute;
+    width: 435px;
+    height: 79px;
+    left: 1013px;
+    top: 715px;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 82.4%;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  
+  .parrafos {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 640px;
+    height: 174px;
+    margin-left: 1020px;
+    margin-top: 833px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+}
+  
 }

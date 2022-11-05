@@ -49,3 +49,21 @@
         z-index: 111;
     }
 }
+
+@media screen and (min-width: 2080px) {
+    .title {
+        position: absolute;
+        width: 512px;
+        height: 381px;
+        left: 314px;
+        top: 100px;
+        /* font-family: "Poppins"; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 140px;
+        line-height: 86%;
+        letter-spacing: -0.06em;
+        color: #ffffff;
+        z-index: 111;
+    }
+}

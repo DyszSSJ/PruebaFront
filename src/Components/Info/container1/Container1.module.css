@@ -84,3 +84,34 @@
   }
   
 }
+
+@media screen and (min-width: 2080px) {
+  .title {
+    position: absolute;
+    width: 492px;
+    height: 168px;
+    left: -35px;
+    top: 400px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 116px;
+    line-height: 88%;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  
+  .text {
+    position: absolute;
+    width: 316px;
+    height: 174px;
+    margin-left: 5px;
+    margin-top: 410px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #ffffff; 
+  }
+  
+}

@@ -114,3 +114,32 @@
     z-index: 1;
   }
 }
+
+@media screen and (min-width: 2080px) {
+  .title {
+    position: absolute;
+    width: 412px;
+    height: 230px;
+    left: 1287px;
+    top: 83px;
+    /* font-family: "Poppins"; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97px;
+    line-height: 73.5%;
+    text-align: right;
+    letter-spacing: -0.06em;
+    color: #d2e603;
+    text-shadow: 0px 0px 16px rgb(0 0 0 / 10%);
+    z-index: 1;
+  }
+
+  .ballena {
+    position: absolute;
+    width: 808px;
+    height: 800px;
+    left: 673px;
+    top: 51px;
+    z-index: 1;
+  }
+}

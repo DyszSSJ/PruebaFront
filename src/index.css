@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
 body {
+  background-color: #0f3057;
   font-family: "Lato", sans-serif;
+}
+
+.vector {
+  position: static;
+  left: 40%;
+  z-index: 1;
 }
 
 .container {
@@ -13,4 +20,90 @@ body {
   background-repeat: no-repeat;
 
   background-image: url(./assets/imageFriends.jpg);
+}
+
+.containerInfo {
+  position: absolute;
+  width: 1117px;
+  height: 1117px;
+  left: 132px;
+  top: 700px;
+
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(143, 32, 230, 0.296) 0.01%,
+    rgba(255, 91, 199, 0.152) 52.08%,
+    rgba(196, 196, 196, 0) 100%
+  );
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .containerInfo {
+    position: absolute;
+    width: 496px;
+    height: 524px;
+    /* left: 132px; */
+    top: 700px;
+
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(143, 32, 230, 0.296) 0.01%,
+      rgba(255, 91, 199, 0.152) 52.08%,
+      rgba(196, 196, 196, 0) 100%
+    );
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .containerInfo {
+    position: absolute;
+    width: 232px;
+    height: 376px;
+    left: 126px;
+    top: 700px;
+    background: radial-gradient( 53% 63% at 49% 66%, rgba(0, 0, 0, 0.8) 0%, rgba(143, 32, 230, 0.296) 0.01%, rgba(255, 91, 199, 0.152) 52.08%, rgba(196, 196, 196, 0) 100% );
+    opacity: 0.7;
+  }
+  
+}
+
+.cointainer-vector {
+  position: absolute;
+  width: 50%;
+  height: 500vh;
+  left: 30%;
+  top: 85%;
+
+  background-repeat: no-repeat;
+  background-image: url(./assets/vectorCurvo.png);
+}
+
+@media screen and (max-width: 768px) {
+  .cointainer-vector {
+    position: absolute;
+    width: 63%;
+    height: 500vh;
+    left: 18%;
+    top: 85%;
+    background-repeat: no-repeat;
+    background-image: url(/src/assets/vectorCurvo.png);
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cointainer-vector {
+    position: absolute;
+    width: 101%;
+    height: 500vh;
+    left: -1%;
+    top: 85%;
+    background-repeat: no-repeat;
+    background-image: url(/src/assets/vectorCurvo.png);
+    z-index: -1;
+  }
 }

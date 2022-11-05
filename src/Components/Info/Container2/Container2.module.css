@@ -1,0 +1,90 @@
+
+
+.title {
+  position: absolute;
+  width: 518px;
+  height: 79px;
+  left: 606px;
+  top: 314px;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 82.4%;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+
+.parrafos {
+  display: flex;
+  gap: 2rem;
+  width: 582px;
+  height: 174px;
+  margin-left: 613px;
+  margin-top: 470px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    position: absolute;
+    width: 368px;
+    height: 79px;
+    left: 19px;
+    top: 415px;
+    font-weight: 800;
+    font-size: 68px;
+    line-height: 82.4%;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  
+  .parrafos {
+    display: flex;
+    gap: 1rem;
+    width: 557px;
+    height: 174px;
+    margin-left: 18px;
+    margin-top: 534px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .title {
+    position: absolute;
+    width: 335px;
+    height: 79px;
+    left: -113px;
+    top: 315px;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 82.4%;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+  
+  .parrafos {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    width: 340px;
+    height: 174px;
+    margin-left: -106px;
+    margin-top: 433px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+}

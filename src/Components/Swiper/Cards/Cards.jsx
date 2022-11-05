@@ -1,17 +1,15 @@
-import { Avatar, Card } from 'antd';
+import { Avatar, Card } from "antd";
 import user from "../../../assets/user.png";
 import styles from "./Cards.module.css";
 
 const { Meta } = Card;
 
-
 function Cards() {
-  
   return (
     <Card
       style={{
         width: 300,
-        margin: 0 ,
+        margin: 0,
         backgroundColor: "#505B87",
         borderRadius: "10px",
         border: "none",

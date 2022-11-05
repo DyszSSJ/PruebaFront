@@ -146,6 +146,26 @@ h1, h2, h3, h4, h5, h6 {
   top: 2970px;
 }
 
+@media screen and (max-width: 768px) {
+  .StarsContainer {
+    position: absolute;
+    width: 504px;
+    height: 624.25px;
+    left: 90px;
+    top: 2970px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .StarsContainer {
+    position: absolute;
+    width: 314px;
+    height: 624.25px;
+    left: 31px;
+    top: 2970px;
+  }
+}
+
 .swiperConatiner {
   position: absolute;
   width: 80%;
@@ -157,6 +177,36 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   gap: 2rem;
   top: 3203px;
+}
+
+@media screen and (max-width: 768px) {
+  .swiperConatiner {
+    position: absolute;
+    width: 77%;
+    margin: 0;
+    /* height: 714.25px; */
+    left: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    top: 3203px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .swiperConatiner {
+    position: absolute;
+    width: 76%;
+    margin: 0;
+    /* height: 714.25px; */
+    left: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    top: 3203px;
+  }
 }
 
 .swiper-wrapper {
@@ -197,6 +247,30 @@ h1, h2, h3, h4, h5, h6 {
   width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,15px));
   height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,8px));
   border-radius: 40%;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    margin-left: -6rem;
+    margin-right: 4rem;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .swiper {
+    margin-left: -8rem;
+    margin-right: 5rem;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
 }
 
 

@@ -13,3 +13,39 @@
     color: #ffffff;
     z-index: 111;
 }
+
+@media screen and (max-width: 768px) {
+    .title {
+        position: absolute;
+        width: 227px;
+        height: 133px;
+        left: 16px;
+        top: 72px;
+        /* font-family: "Poppins"; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 86%;
+        letter-spacing: -0.06em;
+        color: #ffffff;
+        z-index: 111;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .title {
+        position: absolute;
+        width: 176px;
+        height: 133px;
+        left: -5px;
+        top: 72px;
+        /* font-family: "Poppins"; */
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 86%;
+        letter-spacing: -0.06em;
+        color: #ffffff;
+        z-index: 111;
+    }
+}

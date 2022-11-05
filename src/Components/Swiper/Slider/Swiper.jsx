@@ -1,21 +1,20 @@
 import Cards from "../Cards/Cards";
 import styles from "./Swiper.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from 'swiper';
+import { Pagination } from "swiper";
 import "swiper/css";
-import 'swiper/css/pagination';
+import "swiper/css/pagination";
 
 function SwiperSlider() {
-
   return (
     <>
-       <Swiper
-       modules={[Pagination]}
+      <Swiper
+        modules={[Pagination]}
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
         onSlideChange={() => console.log("slide change")}
-        pagination={ {clickable: true}}
+        pagination={{ clickable: true }}
         className="portfolio-slider"
       >
         <SwiperSlide>
